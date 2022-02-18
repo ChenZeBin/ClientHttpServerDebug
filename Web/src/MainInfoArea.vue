@@ -45,5 +45,11 @@ export default {
     
     // this.$refs.scroll.y =
   },
+  watch: {
+    allDataMap(val, newval) {
+        console.log(val)
+        console.log(newval)
+    }
+} 
 };
 </script>

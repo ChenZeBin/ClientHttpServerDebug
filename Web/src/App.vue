@@ -39,6 +39,7 @@
     </a-layout>
   </a-layout>
 </template>
+
 <script>
 import MainContentLayout from "./MainContentLayout.vue";
 var OpenWebSokcet = require("./WebSocketModule");
